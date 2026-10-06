@@ -1,0 +1,27 @@
+# ---- 通用 ----
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.log
+
+# ---- 后端 Java / Maven ----
+target/
+out/
+build/
+*.class
+*.jar
+*.war
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---- 前端 Vue / uni-app ----
+node_modules/
+unpackage/
+dist/
+.hbuilderx/
+.env.local
+.env.*.local
+*.local
+out/
